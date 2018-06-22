@@ -1,5 +1,9 @@
 module.exports = {
   root: true,
+  globals: {
+    $: false,
+    jQuery: false,
+  },
   env: {
     node: true
   },
